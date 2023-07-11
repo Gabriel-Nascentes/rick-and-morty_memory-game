@@ -1,0 +1,13 @@
+.footer {
+  height: 30px;
+  color: #444444;
+  background: #00b5cc;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem 0;
+}
+@media screen and (max-width: 400px) {
+  .footer p {
+    font-size: 10px;
+  }
+}

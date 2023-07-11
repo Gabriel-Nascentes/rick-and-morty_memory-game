@@ -1,0 +1,31 @@
+.container-header {
+  background-color: #00b5cc;
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+  padding: 20px;
+}
+@media screen and (max-width: 800px) {
+  .container-header {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container-header {
+    font-size: 12px;
+    flex-direction: column;
+    margin: 10px auto;
+    padding: 5px;
+  }
+  .container-header p {
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .container-header {
+    font-size: 9px;
+  }
+}

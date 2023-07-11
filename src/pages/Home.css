@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Press Start 2P", "Courier New", Courier, monospace;
+}
+.container-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.login-form img {
+  height: 25rem;
+}
+.login-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-form input,
+.login-form button {
+  width: 15rem;
+  margin: 0.8rem 0;
+}
+.login-form input {
+  padding: 10px;
+  border-radius: 0.5rem;
+  border: solid 1px black;
+}
+.login-form button {
+  padding: 15px;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: #00b5cc;
+  border: solid 1px #00b5cc;
+  cursor: pointer;
+}
+.login-form button:disabled {
+  color: #00b5cc;
+  background-color: #444;
+  border: solid 1px #444;
+}
+@media screen and (max-width: 700px) {
+  .login-form img {
+    height: 10rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  .login-header h1 {
+    font-size: 20px;
+  }
+}
